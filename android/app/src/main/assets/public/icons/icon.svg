@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="100" fill="#1A5C45"/>
+  <rect width="512" height="512" rx="100" fill="url(#bg)"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D3B2E"/>
+      <stop offset="100%" stop-color="#2E8B6A"/>
+    </linearGradient>
+  </defs>
+  <!-- Warehouse shape -->
+  <rect x="120" y="240" width="272" height="180" rx="12" fill="white" opacity="0.95"/>
+  <polygon points="100,240 256,130 412,240" fill="white" opacity="0.85"/>
+  <!-- Door -->
+  <rect x="216" y="320" width="80" height="100" rx="8" fill="#1A5C45"/>
+  <!-- Windows -->
+  <rect x="148" y="270" width="50" height="40" rx="6" fill="#52B788" opacity="0.8"/>
+  <rect x="314" y="270" width="50" height="40" rx="6" fill="#52B788" opacity="0.8"/>
+  <!-- Wheat stalk -->
+  <line x1="256" y1="100" x2="256" y2="50" stroke="#FFC107" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="256" cy="42" rx="14" ry="22" fill="#FFC107"/>
+  <ellipse cx="238" cy="58" rx="10" ry="18" fill="#FFC107" transform="rotate(-30 238 58)"/>
+  <ellipse cx="274" cy="58" rx="10" ry="18" fill="#FFC107" transform="rotate(30 274 58)"/>
+</svg>
